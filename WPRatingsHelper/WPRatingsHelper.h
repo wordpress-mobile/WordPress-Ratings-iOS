@@ -3,9 +3,8 @@
 
 /**
  This class will help track whether or not a user should be prompted for an app review.
- This class is based on WPiOS's AppRatingUtility: Props to Sendhil!
- 
- Ref: https://github.com/wordpress-mobile/WordPress-iOS/blob/develop/WordPress/Classes/Utility/Ratings/AppRatingUtility.m
+ -   Appirater:          https://github.com/arashpayan/appirater
+ -   AppRatingUtility:   https://github.com/wordpress-mobile/WordPress-iOS/blob/develop/WordPress/Classes/Utility/Ratings/AppRatingUtility.m
  */
 
 @interface WPRatingsHelper : NSObject
