@@ -8,13 +8,11 @@ static NSDate *_mockDate;
 
 + (void)swizzleMock
 {
-    NSLog(@"Initialized %@", self);
     [NSDate jr_swizzleClassMethod:@selector(date) withClassMethod:@selector(mockCurrentDate) error:nil];
 }
 
 + (NSDate *)mockCurrentDate
 {
-    NSLog(@"< Mock");
     return _mockDate ?: [self mockCurrentDate];
 }
 
