@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                = "WordPress-Ratings-iOS"
   s.version             = "0.0.1"
-  s.summary             = "Library for handling Ratings WPiOS"
+  s.summary             = "Library for handling WPiOS Ratings"
   s.homepage            = "http://apps.wordpress.org"
   s.license             = { :type => "GPLv2" }
   s.author              = { "Sendhil Panchadsaram" => "sendhil@automattic.com" }
