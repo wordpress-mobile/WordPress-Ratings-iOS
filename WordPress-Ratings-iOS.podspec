@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary             = "Library for handling WPiOS Ratings"
   s.homepage            = "http://apps.wordpress.org"
   s.license             = { :type => "GPLv2" }
-  s.author              = { "WordPress-Mobile" => "mobile@automattic.com" }
+  s.author              = { "WordPress" => "mobile@automattic.com" }
   s.social_media_url    = "http://twitter.com/WordPressiOS"
   s.platform            = :ios, "7.0"
   s.source              = { :git => "https://github.com/wordpress-mobile/WordPress-Ratings-iOS.git", :tag => s.version.to_s }
